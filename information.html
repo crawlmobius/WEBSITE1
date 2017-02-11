@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Info: Bay of Plenty New Zealand North Island. Visitor Centres, Information, Tourist Guides</title>
+
+<link id="pagestyle" rel="stylesheet" type="text/css" href="bay_styles.css">
+<script src="bay_scripts.js"></script>
+
+</head>
+<body onLoad="auto()">
+<div id="container">
+<div id="css_buttons">
+<button  onclick="swapStyleSheet('bay_styles_alternate.css')">Dark Style</button>
+<button  onclick="swapStyleSheet('bay_styles.css')">Light Style</button>
+</div>
+<div id="header">
+<h1>Bay of Plenty: Information</h1>
+ </div>
+
+<div id="slideshow">
+<form>
+<button type="button" id="backward" onClick=" goBack()">&lt&lt </button>
+<button type="button" id="forward" onClick=" goAhead()">&gt&gt</button>
+<img src="images/Mt_Maunganui01.jpg "  name="slideshow" alt="Mount Maunganui" />
+
+</form>
+</div>
+<hr>
+
+<div id = "nav">
+
+<ul class="menu">
+<li class="home"><a href="index.html"> </a></li>
+ <li class="things_to_do"><a href="things_to_do.html"></a></li>
+ <li class="where_to_stay"><a href="where_to_stay.html"></a></li>
+ <li class="wine_and_dine"><a href="wine_and_dine.html"></a></li>
+ <li class="events"><a href="events.html"> </a></li>
+ <li class="gallery"><a href="gallery.html"></a></li>
+ <li class="information"><a href="information.html"></a></li>
+</ul>
+
+</div>
+
+<div id="section">
+
+<h2>Visitor Information Centres</h2>
+<h3>I-Site Visitor Information</h3>
+<ul><li>Tauranga i-SITE Visitor Information Centre<br>
+95 Willow St, Tauranga, ph 07 578 8103</li>
+<li>Whakatane i-SITE Visitor Information Centre<br>
+Cnr Quay Street and Kakahoroa Drive, Whakatane, ph 07 306 2030</li>
+</ul>
+<h3>General Information</h3>
+<ul>
+<li>Mt Maunganui Visitor Information Centre: <br> 1 Adams Ave, Mt Maunganui, ph 07 575 4471</li>
+<li>Katikati Visitor Information Centre: <br> 36 Main Rd, Katikati, ph 07 549 1658</li>
+<li>Waihi Beach Visitor Information: <br> Wilson Road (open from December to February)</li>
+<li>Te Puke Visitor Information: <br> 130 Jellicoe St, Te Puke, ph 07 573 9172</li>
+</ul>
+
+
+<h2> Stay Connected </h2>
+<form name="myForm" action="mailto:lookingforthesummer@yandex.ru"
+onsubmit="event.preventDefault();  validateForm()" method="post">
+Name: <input type="text" name="fname" size="35" maxlength="40"><br>
+E-mail:<input type="text" name="email" size="35" maxlength="40"><br>
+Country:<select type="text" name="country" class="input">
+		<option>New Zealand</option>
+          <option>Australia</option>
+          <option>Canada</option>
+          <option>China</option>
+          <option>India</option>
+          <option>Japan</option>
+          <option>Russia</option>
+          <option>UK</option>
+          <option>USA</option>
+        </select> 
+        <br>
+Date of birth: <input type="date"><br><br>
+Choose the topics you are interested in:<br>
+<table width="250">
+  <tr>
+    <td><label>
+      <input type="checkbox" name="CheckboxGroup1" value="Newsletter" id="CheckboxGroup1_0">
+      All</label></td>
+        <td><label>
+      <input type="checkbox" name="CheckboxGroup1" value="Events" id="CheckboxGroup1_1">
+      Events</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="CheckboxGroup1" value="Weather" id="CheckboxGroup1_2">
+      Weather</label></td>
+      <td><label>
+      <input type="checkbox" name="CheckboxGroup1" value="Specials" id="CheckboxGroup1_3">
+      Specials</label></td>
+  </tr>
+    </table> <br>
+  Frequency of Newsletter:<br>
+       <input type="radio" name="involved" id="involved" value="Yes">
+       <label for="involved">Fortnightly</label><br>
+  	<input type="radio" name="involved" id="involved2" value="Yes">
+        <label for="involved2">Monthly</label><br>
+<br>
+<input type="submit" value="Submit">
+</form>
+
+</div>
+
+<div id="sidebar">
+<div id="recources">
+<h2>Useful Resources </h2>
+<ul>
+<li><a href="http://www.newzealand.com/int/bay-of-plenty/" title="Bay of Plenty" target="new">100% Pure New Zealand</a></li>
+<li><a href="http://www.voyagemahia.com/" target="new">Mahia Peninsula</a></li>
+<li><a href="http://www.baybus.co.nz/" target="new">BOP Public Transport </a></li>
+<li><a href="https://www.interislander.co.nz/" target="new">NZ Ferry </a></li>
+<li><a href="http://www.uniquestays.co.nz/" target="new">Unique Stays </a></li>
+<li><a href="http://www.gisbornerowingclub.co.nz/" target="new">Rowing Club </a></li>
+<li><a href="http://www.npnz.co.nz/" target="new">NZ Swimming Pools </a></li>
+<li><a href="http://www.peterbrownartist.com/" target="new">NZ Art </a></li>
+<li><a href="http://www.bopdhb.govt.nz/" target="new">BOP Health Board </a></li>
+<li><a href="http://www.wainuinz.co.nz/" target="new">Beachfront Wainui </a></li>
+<li><a href="http://www.musselbed.co.nz/musselbed_cottage.html" target="new">Cook's Beach Stay </a></li>
+<li><a href="http://www.gisbornemusiccompetition.co.nz/" target="new">Gisborn Music Events </a></li>
+<li><a href="http://www.taurangabay.co.nz/" target="new">BOP Camping </a></li>
+<li><a href="http://www.tidalwatersnz.com/" target="new">Tidal Waters Stay </a></li>
+<li><a href="https://www.nzta.govt.nz/walking-cycling-and-public-transport/" target="new">NZ Transport </a></li>
+
+</ul>
+</div>
+ </div>
+
+
+
+
+
+<div id="footer">
+  <hr>
+<div id="footer_menu">
+<h4>Menu:  </h4>
+<a href="index.html">Home </a><br>
+ <a href="things_to_do.html">Things to Do</a><br>
+ <a href="where_to_stay.html">Where to stay</a><br>
+ <a href="wine_and_dine.html">Wine and Dine</a><br>
+ <a href="events.html">Events </a><br>
+ <a href="gallery.html">Gallery</a><br>
+ Information
+</div>
+
+
+<div id="social_media">
+<h4>Find Us on:</h4><br><br>
+<div class="icons">
+    <a class="twitter" href="https://twitter.com/" target="new"></a>
+    <a class="pinterest" href="https://nz.pinterest.com/" target="new"></a>
+    <a class="flickr" href="https://www.flickr.com/" target="new"></a>
+    <a class="facebook" href="https://www.facebook.com/" target="new"></a>
+    <a class="sharethis" href="http://www.sharethis.com/" target="new"></a>
+    <a class="youtube" href="https://www.youtube.com/?gl=NZ" target="new"></a>
+    <a class="googleplus" href="https://plus.google.com/collections/featured" target="new"></a>
+    </div>
+</div>
+
+
+<div id="search">
+<h4>Looking for something can't find?  </h4><br><br>
+<form method="get" action="http://www.google.com/search" target="new">
+<input type="text" name="q" size="31" maxlength="200" value="" /><br> <br>
+<input type="submit" value="Google Search" />
+
+</form>
+</div>
+
+<div id="copyright">
+<h2>&copy; Copyright and Disclaimer</h2>
+<p>&copy; 2016 All pictures are copyright free and labeled as for reuse with modification. All text are copyright. Copyright is vested in the Unitec or Nataliya Cardillo.</p>
+
+</div>
+
+</div>
+</div>
+</body>
+</html>
